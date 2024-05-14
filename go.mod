@@ -2,6 +2,8 @@ module github.com/vmware-tanzu/carvel-ytt
 
 go 1.22
 
+toolchain go1.22.3
+
 require (
 	github.com/BurntSushi/toml v1.2.1
 	github.com/aws/aws-lambda-go v1.41.0
